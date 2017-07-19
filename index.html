@@ -161,28 +161,31 @@
 		<h2 class="text-center title">Get in touch</h2>
 
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 text-center">
+			<div class="col-sm-12 text-center">
 				<p class="lead">Have a question about web design, web application, branding, promotion, interactive or this company?</p>
 				<p>Feel free to email me, or drop me a line in Twitter!</p>
 				<p><b>teramatics@gmail.com</b><br>
 				<b>Tel./WA. +62 818 02832 139</b><br><br></p>
 
+				<div class="col-sm-8 col-sm-offset-2 text-left">
+				<div class="col-sm-6">
 				<form id="contact-form" action="//formspree.io/teramatics@gmail.com" method="post">
-					<input type="text" name="Name" placeholder="Name" required>
-					<input type="email" name="Email" placeholder="Email" required>
-					<textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+					<input type="text" name="Name" class="form-control" placeholder="Name" required><br />
+					<input type="email" name="Email" class="form-control" placeholder="Email" required><br />
+					<input type="text" name="Telp/HP" class="form-control" placeholder="Telp/HP/WA" required>
+					</div>
+					<div class="col-sm-6">
+					<textarea name="Message" cols="30" rows="6" class="form-control" placeholder="Message" required></textarea>
+					</div>
 					<!-- CONFIG -->
+					<div class="col-sm-12 text-center"><br />
 					<input class="is-hidden" type="text" name="_gotcha">
 					<input type="hidden" name="_subject" value="Contact Teramatics">
 					<!-- /CONFIG -->
-					<input class="submit button special" type="submit" value="Send">
+					<input class="submit btn btn-default" type="submit" value="Send">
+					</div>
 				</form>
-
-				<ul class="list-inline list-social">
-					<li><a href="https://twitter.com/teramatics" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="https://github.com/teramatics" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
-					<li><a href="http://facebook.com/teramatics" class="btn btn-link"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
-				</ul>
+				</div>
 
 			</div>
 		</div>
